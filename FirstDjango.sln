@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FirstDjango", "FirstDjango.pyproj", "{10709E16-4CCA-428D-B7E3-92B71CE2317E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10709E16-4CCA-428D-B7E3-92B71CE2317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10709E16-4CCA-428D-B7E3-92B71CE2317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10709E16-4CCA-428D-B7E3-92B71CE2317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10709E16-4CCA-428D-B7E3-92B71CE2317E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3DF42E6-3EC3-4335-9A09-50563813BD50}
+	EndGlobalSection
+EndGlobal
