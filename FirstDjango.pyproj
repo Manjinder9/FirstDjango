@@ -4,6 +4,7 @@
     <Name>FirstDjango</Name>
     <RootNamespace>FirstDjango</RootNamespace>
     <InterpreterId>MSBuild|env-django|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -30,17 +31,69 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="likes\admin.py" />
+    <Compile Include="likes\apps.py" />
+    <Compile Include="likes\migrations\__init__.py" />
+    <Compile Include="likes\models.py" />
+    <Compile Include="likes\tests.py" />
+    <Compile Include="likes\views.py" />
+    <Compile Include="likes\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="FirstDjango\__init__.py" />
     <Compile Include="FirstDjango\settings.py" />
     <Compile Include="FirstDjango\urls.py" />
     <Compile Include="FirstDjango\wsgi.py" />
+    <Compile Include="playground\admin.py" />
+    <Compile Include="playground\apps.py" />
+    <Compile Include="playground\migrations\__init__.py" />
+    <Compile Include="playground\models.py" />
+    <Compile Include="playground\tests.py" />
+    <Compile Include="playground\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playground\views.py" />
+    <Compile Include="playground\__init__.py" />
+    <Compile Include="store\admin.py" />
+    <Compile Include="store\apps.py" />
+    <Compile Include="store\migrations\__init__.py" />
+    <Compile Include="store\models.py" />
+    <Compile Include="store\tests.py" />
+    <Compile Include="store\views.py" />
+    <Compile Include="store\__init__.py" />
+    <Compile Include="tags\admin.py" />
+    <Compile Include="tags\apps.py" />
+    <Compile Include="tags\migrations\__init__.py" />
+    <Compile Include="tags\models.py" />
+    <Compile Include="tags\tests.py" />
+    <Compile Include="tags\views.py" />
+    <Compile Include="tags\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="likes\templates\likes\index.html" />
+    <Content Include="playground\templates\hello.html" />
+    <Content Include="playground\templates\playground\index.html" />
     <Content Include="requirements.txt" />
+    <Content Include="store\templates\store\index.html" />
+    <Content Include="tags\templates\tags\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FirstDjango\" />
+    <Folder Include="likes\" />
+    <Folder Include="likes\migrations\" />
+    <Folder Include="likes\templates\" />
+    <Folder Include="likes\templates\likes\" />
+    <Folder Include="playground\" />
+    <Folder Include="playground\migrations\" />
+    <Folder Include="playground\templates\" />
+    <Folder Include="playground\templates\playground\" />
+    <Folder Include="store\" />
+    <Folder Include="store\migrations\" />
+    <Folder Include="store\templates\" />
+    <Folder Include="store\templates\store\" />
+    <Folder Include="tags\" />
+    <Folder Include="tags\migrations\" />
+    <Folder Include="tags\templates\" />
+    <Folder Include="tags\templates\tags\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env-django\">
